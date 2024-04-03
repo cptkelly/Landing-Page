@@ -3,6 +3,7 @@
     padding: 0;
     font-family: "Roboto", sans-serif;
 }
+/* Header Section */
 header {
     background-color: #1F2937;
 }
@@ -62,3 +63,32 @@ nav ul li {
     font-weight: 600;
     margin-top: 20px;
 }
+/* Information Section */
+h2 {
+    font-size: 40px;
+    text-align: center;
+    margin: 80px 0;
+}
+.item_wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 80px;
+}
+.placeholder p {
+    width: 150px;
+    text-align: center;
+}
+.item_wrapper img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+/* Quote Section */
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    padding: 80px 80px;
+}
+
